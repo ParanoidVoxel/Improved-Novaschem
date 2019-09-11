@@ -20,7 +20,7 @@ function genSchedLink(ao) { // docs:genSchedLink
 	"http://www.novasoftware.se/ImgGen/schedulegenerator.aspx", "?format=png",
 	"&schoolid=" + ao["sid"], "/sv-se", "&type=-1",
 	"&id=" + ao["uid"], "&period=",
-	"&week=" + $("#week").val(),
+	"&week=",
 	"&printer=0", "&mode=0", "&colors=32", "&head=1", "&clock=1", "&foot=1",
 	"&day=" + ta[2],
 	"&width=" + ao["wi"],
